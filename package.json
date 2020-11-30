@@ -1,0 +1,14 @@
+{
+  "name": "dynamic-import",
+  "version": "1.0.0",
+  "description": "MVP for dynamic import of modules in monorepo",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "host",
+    "plugins/*"
+  ],
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
